@@ -2,45 +2,31 @@
  * Float Layout Activity
  **/
 
-* {
+ * {
   box-sizing: border-box;
   text-align: center;
 }
 
 body {
-  margin:0;
-  padding:0;
-  text-align:center;
 }
 
 header {
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
-  background: #ccc;
+  background: #FFA500;
 }
 
 section {
-  margin: 1;
-  color: #ffffff
 }
 
 #left {
-  float: left;
-  background: #666;
-  width: 33%;
 }
 
 #middle {
-  float: center;
-  background: #888;
-  width: 33%;
 }
 
 #right {
-  float: right;
-  background: #666;
-  width: 33%;
 }
 
 #full {
