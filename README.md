@@ -14,7 +14,6 @@ The following are going to be in their own repositories on GitHub
 * 02-06-GithubPagesProject = ode-to-elephants
 
 the following are things I still need to do:
-* Do 01-09-FloatLayout-Activity
 * figure out 01-10-CSS_PositionedLayout
 * do 01-11-CSS_Positoned_Activity
 * Do 02-07-CSSTypography
