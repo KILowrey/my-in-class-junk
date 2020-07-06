@@ -7,6 +7,8 @@ I don't want to build a million repositorys for a million 5 to 20 minute activit
 
 the origin of all the assignments here can be found on [my class's GitLab](https://ucsd.bootcampcontent.com/UCSD-Coding-Bootcamp/ucsd-sd-fsf-pt-06-2020-u-c)
 
+Contents are labeld with the week number, followed by the activity number, and finally the activity name.
+
 some activities are not here because they were just stuff like messing around on google
 
 The following are going to be in their own repositories on GitHub
@@ -14,8 +16,6 @@ The following are going to be in their own repositories on GitHub
 * 02-06-GithubPagesProject = ode-to-elephants
 
 the following are things I still need to do:
-* figure out 01-10-CSS_PositionedLayout
-* do 01-11-CSS_Positoned_Activity
 * Do 02-07-CSSTypography
 * Do 02-08-GoogleFontDemo
 * Do 02-09-Pseudoclass

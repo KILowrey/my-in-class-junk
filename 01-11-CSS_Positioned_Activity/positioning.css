@@ -1,2 +1,50 @@
 /*css for positioning.html*/
 
+/* everything except the div in the top left */
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* actually everything */
+body {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+/* this is for all the divs */
+.positioned span {
+    display: block;
+}
+
+.relative {
+    background-color: #eee;
+    padding: 20px;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    right: -20px;
+    background-color: #999;
+    text-align: center;
+}
+
+/* this is for the fixed div */
+.fixed {
+    background-color: #eee;
+    padding: 40px;
+    width: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    text-align: center;
+}
