@@ -16,6 +16,5 @@ The following are going to be in their own repositories on GitHub
 * 02-06-GithubPagesProject = ode-to-elephants
 
 the following are things I still need to do:
-* Do 02-07-CSSTypography
 * Do 02-08-GoogleFontDemo
 * Do 02-09-Pseudoclass
