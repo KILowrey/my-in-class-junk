@@ -15,6 +15,10 @@ The following are going to be in their own repositories on GitHub
 * 02-05-GithubPagesPersonal = KILowrey.github.io
 * 02-06-GithubPagesProject = ode-to-elephants
 
-the following are things I still need to do:
+the following are things I need to do:
 * Do 02-08-GoogleFontDemo
 * Do 02-09-Pseudoclass
+* Do 02-12-WarmupBootstrap
+* make 02-14-TextLayout pretty
+* Do 02-18-StudentMedia
+* Do 02-16-CardLayout as an extra challenge
