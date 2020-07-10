@@ -17,8 +17,8 @@ The following are going to be in their own repositories on GitHub
 
 the following are things I need to do:
 * Do 02-08-GoogleFontDemo
-* Do 02-09-Pseudoclass
-* Do 02-12-WarmupBootstrap
-* make 02-14-TextLayout pretty
-* Do 02-18-StudentMedia
-* Do 02-16-CardLayout as an extra challenge
+* Do 02-09-Pseudoclass 
+* Do 02-12-WarmupBootstrap (2.3)
+* make 02-14-TextLayout pretty (2.3)
+* Do 02-18-StudentMedia (2.3)
+* Do 02-16-CardLayout as an extra challenge (2.3)
