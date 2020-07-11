@@ -17,9 +17,11 @@ The following are going to be in their own repositories on GitHub
 
 the following are things I need to do:
 * Do 02-08-GoogleFontDemo
-* Do 02-09-Pseudoclass 
+* *Do 02-09-Pseudoclass* 
 * Do 02-12-WarmupBootstrap (2.3)
 * make 02-14-TextLayout pretty (2.3)
 * Do 02-18-StudentMedia (2.3)
 * Do 02-16-CardLayout as an extra challenge (2.3)
 * go though conditional demo 2 at home (3.1) (03-JavaScript. not here)
+* do 13-Bands.html (from me)
+* look into doing 21-RandomNumbers.html at home
