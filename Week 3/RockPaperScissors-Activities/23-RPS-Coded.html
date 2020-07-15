@@ -7,21 +7,64 @@
 <body>
     <script type="text/javascript">
 
-        var computerOptions =["r", "p", "s"];   
-        var num = Math.floor(Math.random() * 3);
-        var computerChoice = computerOptions[num];
-        console.log(num);
-        console.log(computerChoice);
-
-        
-
+        // Creating variables to hole the number of wins, losses, and ties. They start at 0.
         var wins = 0;
         var losses = 0;
         var ties = 0;
 
-        var playerChoices = prompt('pick "r", "p", or "s"');
+        // Ceates an array that lists out all of the options (Rock, Paper, or Scissors).
+        var computerChoices = ["r", "p", "s"];
+        var playAgain = true;
 
+        while(playAgain === true) {
 
+            var randomRPSChoice = Math.floor(Math.random() * 3);
+
+            // set computer choice
+            var computerChoice = computerChoices[randomRPSChoice];
+
+            // get input from the user
+            var userChoice = prompt('Please choose r, p, or s:');
+
+            // compare the computer and user input
+            // and set wins/losses
+
+            // Tie scenario
+
+            if(userChoice === computerChoise) {
+                alert('Tie game!');
+
+                ties++;
+            }
+
+            // winning
+            else if(
+                (userChoice === 'p' && computerChoice === 'r') ||
+                (userChoice === 'r' && computerChoice === 's') ||
+                (userChoice === 's' && computerChoice === 'p')
+            ) {
+                alert('You won!');
+
+                wins++;
+            }
+
+            else {
+                alert('Computer wins');
+
+                losses++;
+            }
+
+            // alert the winner
+
+            // Does NOT use ' <-- standard single quote
+            // uses the ` <-- This is a "tick mark" on the ~ key (beneath the escape key)
+            alert(`Current score -- wins: ${wins} losses: ${losses} ties: ${ties}`);
+
+            // now add looping logic
+
+            playAgain = confirm('Would you like to play a game?');
+
+        } 
 
     </script>
 </body>
