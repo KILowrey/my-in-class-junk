@@ -28,3 +28,6 @@ the following are things I need to do:
 
 * go over 27-MyFirstFunctions more until you totally get it Kira!
 * try out the locationredirect thing
+
+* go over 04-13 and make it better
+* Do 04-15 with class recording
