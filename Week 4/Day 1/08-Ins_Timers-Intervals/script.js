@@ -17,12 +17,12 @@ function setTime() {
 }
 
 function sendMessage() {
-  timeEl.textContent = " ";
+timeEl.textContent = " ";
 
-  var imgEl = document.createElement("img");
+var imgEl = document.createElement("img");
 
-  imgEl.setAttribute("src", "images/image_1.jpg");
-  mainEl.appendChild(imgEl);
+imgEl.setAttribute("src", "images/image_1.jpg");
+mainEl.appendChild(imgEl);
 
 }
 
