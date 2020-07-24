@@ -11,9 +11,26 @@ var restMinutesInput = document.querySelector("#rest-minutes");
 var totalSeconds = 0;
 var secondsElapsed = 0;
 var interval;
+var status = "working";
+
+  // Write code to start the timer here
+  // make a function that starts the timer by taking the minutes from the user in work and setting total seconds to that
+  // also use it to reset/clear existicing intervasl
+  // update the DOM every second. seperate function
+  // alert user to take break when done
+
+function workOrRest() {
+
+}
 
 function startTimer() {
-  // Write code to start the timer here
+  if(status === "working") {
+    totalSeconds = (workMinutesInput.value * 60)
+  } else {
+    totalSeconds = (restMinutesInput.value * 60)
+  }
+  interval = setInterval();
+  clearInterval(interval);
 }
 
 playButton.addEventListener("click", startTimer);
