@@ -82,6 +82,25 @@
 
       // Be sure to test that your code works for this major task, before proceeding to the next one!
 
+      // $(letters).each(function () {
+      //   const letterBtn = $("<button>");
+      //   $(letterBtn).addClass("letter-button letter letter-button-color");
+      //   $(letterBtn).attr("dataLetter", "letters[i]");
+      //   $(letterBtn).text("letter[i]");
+      //   $(letterBtn).append("#buttons");
+      // });
+
+      const buttonsElement = $('#buttons');
+
+      letters.forEach(function (letter) {
+        const button = $('<button>' + letter + '</button>')
+
+        button.addClass('letter-button letter letter-button-color');
+        button.data('letter', letter);
+
+        buttonElement.append(button);
+      });
+
       // MAJOR TASK #2: ATTACH ON-CLICK EVENTS TO "LETTER" BUTTONS
       // =================================================================================
 
@@ -98,6 +117,15 @@
       // 11. Lastly append the fridgeMagnet variable to the "#display" div (provided);
 
       // Be sure to test that your code works for this major task, before proceeding to the next one!
+
+      $('.letter-button').on('click', function() {
+        const letter = $(this).data('letter');
+
+        const fridgeLetter = $(`<div>${letter}</div>`);
+        fridgeLetter.addClass('letter fridge-color');
+
+        $('#display').append(fridgeLetter);
+      });
 
       // MAJOR TASK #3: ATTACH ON-CLICK EVENTS TO "CLEAR" BUTTON
       // =================================================================================

@@ -66,6 +66,19 @@
           </div>
         </div>
 
+        <!-- Controls (turn into a planet) (my addition) -->
+        <div id="transformControls" class="card">
+          <h4 class="card-header">Superpowers - Transformation!</h4>
+          <div class="card-body">
+            <div class="text-center">
+              <button class="btn btn-danger btn-lg trans-btn">
+                <span class="fa fa-eye"></span> Planet!</button>
+              <button class="btn btn-info btn-lg untrans-btn">
+                <span class="fa fa-eye"></span> UnPlanet!</button>
+            </div>
+          </div>
+        </div>
+
         <!-- Controls (Superpower Move Controls) -->
         <div id="moveControls" class="card">
           <h4 class="card-header">Move Controls</h4>
@@ -132,6 +145,14 @@
     });
     $(".invis-button").on("click", function() {
       captainPlanet.animate({ opacity: "0.05" });
+    });
+
+    // Transform Buttons
+    $(".trans-btn").on("click", function () {
+      
+    });
+    $(".untrans-btn").on("click", function () {
+
     });
 
     // Move Buttons
