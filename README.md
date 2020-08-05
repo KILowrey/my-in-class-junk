@@ -7,27 +7,11 @@ I don't want to build a million repositorys for a million 5 to 20 minute activit
 
 the origin of all the assignments here can be found on [my class's GitLab](https://ucsd.bootcampcontent.com/UCSD-Coding-Bootcamp/ucsd-sd-fsf-pt-06-2020-u-c)
 
-Contents are labeld with the week number, followed by the activity number, and finally the activity name.
-
 some activities are not here because they were just stuff like messing around on google
 
-The following are going to be in their own repositories on GitHub
+The following are going to their own repositories on GitHub:
 * 02-05-GithubPagesPersonal = KILowrey.github.io
-* 02-06-GithubPagesProject = ode-to-elephants
+* All of the Homework Assignments
 
-the following are things I need to do:
-* Do 02-08-GoogleFontDemo
-* *Do 02-09-Pseudoclass* 
-* Do 02-12-WarmupBootstrap (2.3)
-* make 02-14-TextLayout pretty (2.3)
-* Do 02-18-StudentMedia (2.3)
-* Do 02-16-CardLayout as an extra challenge (2.3)
-* go though conditional demo 2 at home (3.1) (03-JavaScript. not here)
-* do 13-Bands.html (from me)
-* look into doing 21-RandomNumbers.html at home
-
-* go over 27-MyFirstFunctions more until you totally get it Kira!
-* try out the locationredirect thing
-
-* go over 04-13 and make it better
-* Do 04-15 with class recording
+---
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
