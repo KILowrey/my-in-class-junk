@@ -25,7 +25,15 @@
 
     <!-- **************************************** -->
 
-    <!-- YOUR BUTTONS GO HERE!!!!!! Delete this comment and put your buttons here.  -->
+    <button data-person="carrie fisher">
+      I want it reported that I drowned in moonlight, strangled by my own bra
+    </button>
+    <button data-person="anthony field">
+      Fruit Salad
+    </button>
+    <button data-person="joey richter">
+      did somebody say ron weasly?!
+    </button>
 
     <!-- **************************************** -->
 
@@ -44,7 +52,7 @@
     $("button").on("click", function() {
       var person = $(this).attr("data-person");
       var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        person + "&api_key=dc6zaTOxFJmzC&limit=10";
+        person + "&api_key=pr2J8eBCbZBcP0UaJY6dIWaJDi0cgDvi&limit=10";
 
       $.ajax({
         url: queryURL,

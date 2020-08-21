@@ -24,7 +24,7 @@
 
       // ============== FILL IN CODE HERE FOR STEP TWO =========================
 
-      // CODE GOES HERE
+      const state = $(this).data('state');
 
       // =============================================
 
@@ -36,7 +36,25 @@
       // image to it's data-still value and update the data-state attribute to 'still'
       // ============== FILL IN CODE HERE FOR STEP THREE =========================
 
-      // CODE GOES HERE
+      // if (state === 'still') {
+      //   $('img').attr('src', 'data-animate');
+      //   $('img').attr('data-state', 'animate');
+      // }
+      
+      // if (state === 'animate') {
+      //   $('img').attr('src', 'data-still');
+      //   $('img').attr('data-state', 'still');
+      // }
+
+      if (state === 'still') {
+        const sourceUrl = $(this).data('animate');
+        $(this).attr('src', sourceUrl);
+        $(this).data('state', 'animate');
+      } else {
+        const sourceUrl = $(this).data('still');
+        $(this).attr('src', sourceUrl);
+        $(this).data('state', 'still');
+      }
 
       // ==============================================
 
