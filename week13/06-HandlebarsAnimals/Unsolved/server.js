@@ -39,12 +39,18 @@ app.get("/dog", function(req, res) {
 
   // 1. Send the dog object from the animals array to the dog.handlebars file.
 
+  res.render('dog', animals[0]);
+
 });
 
 app.get("/all-pets", function(req, res) {
   // Handlebars requires an object to be sent to the index.handlebars file.
 
   // 2. Send the animals to the index.handlebars file. Remember that animals is an array and not an object.
+
+  var data = {
+    animals: []
+  };
 
 });
 
