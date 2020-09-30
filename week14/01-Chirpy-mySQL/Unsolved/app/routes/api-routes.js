@@ -11,10 +11,21 @@ var connection = require("../config/connection.js");
 // =============================================================
 module.exports = function(app) {
 
-  // Get all chirps
+  // Get all chirps -- GET : SELECT
+  app.get('/api/all', function(req,res) {
+    new Promise(function(res,reject) {
+      connection.query(
+      'SELECT * FROM chirps',
+      [],
+      function(error, data) {
+        if (error) reject(error);
+        resolve
+      }
+      )
+    })
+  })
 
-
-  // Add a chirp
+  // Add a chirp -- POST : INSERT
 
 
 };
