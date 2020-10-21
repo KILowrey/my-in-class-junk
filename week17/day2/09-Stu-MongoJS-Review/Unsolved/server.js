@@ -38,24 +38,50 @@ app.post("/submit", ({ body }, res) => {
   // we have to do it here, because the ajax post will convert it
   // to a string instead of a boolean
   book.read = false;
+
+  db.books.save(book, (error, saved) => {
+    if (error) {
+      console.log(error);
+    } else {
+      res.send(saved);
+    }
+  });
 });
 
 // Find all books marked as read
-app.get("/read", (req, res) => {});
+app.get("/read", (req, res) => {
+  db.books.find({ read: true }, (error, found) => {
+    if (error) {
+      console.log(error);
+    } else {
+      res.json(found);
+    }
+  });
+});
 
 // Find all books marked as unread
-app.get("/unread", (req, res) => {});
+app.get("/unread", (req, res) => {
+  db.books.find({ read: false }, (error, found) => {
+    if (error) {
+      console.log(error);
+    } else {
+      res.json(found);
+    }
+  });
+});
 
 // Mark a book as having been read
 app.put("/markread/:id", (req, res) => {
   // Remember: when searching by an id, the id needs to be passed in
   // as (mongojs.ObjectId(IdYouWantToFind))
+  db.collections.getRead(mongojs.ObjectId({ id }));
 });
 
 // Mark a book as having been not read
 app.put("/markunread/:id", (req, res) => {
   // Remember: when searching by an id, the id needs to be passed in
   // as (mongojs.ObjectId(IdYouWantToFind))
+  db.collections.getUnread(mongojs.ObjectId({ id }));
 });
 
 // Listen on port 3000
