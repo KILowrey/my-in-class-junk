@@ -10,6 +10,19 @@
     <h1>Open Your Developer Tools > Application > IndexedDB</h1>
     <script>
     // CODE HERE
+      const request = window.indexedDB.open("toDoList", 1);
+      let db = null;
+      
+      request.onupgradeneeded = function(event) {
+        const db = event.target.result;
+        const toDoListStore = db.createObjectStore("toDoList", {keyPath: "timestamp"});
+      
+        toDoListStore.createIndex("Timestamp", "timestamp");
+      };
+      
+      request.onsuccess = function() {
+        db = request.result;
+      };
     </script>
   </body>
 </html>
